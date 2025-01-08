@@ -13,13 +13,7 @@
 // TODO: calculateStatistics 함수를 작성하세요.
 function calculateStatistics(users) {
   // TODO
-  let onlyAge = [];
-  for (let idx of users) {
-    onlyAge += users[idx];
-  }
-  return onlyAge;
 }
-const a = [{ age: 10 }, { age: 20 }];
-console.log(calculateStatistics(a));
+
 // export를 수정하지 마세요.
 export { calculateStatistics };
