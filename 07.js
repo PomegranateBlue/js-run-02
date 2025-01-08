@@ -24,7 +24,14 @@
  */
 
 // TODO: get20sEmail 함수를 작성하세요.
-function get20sEmail() {}
+function get20sEmail(arr) {
+  let result = [];
+  result = arr
+    .filter((age) => age >= 20 && age < 30)
+    .sort((a, b) => a - b)
+    .map((email) => email);
+  return result;
+}
 
 // export를 수정하지 마세요.
 export { get20sEmail };

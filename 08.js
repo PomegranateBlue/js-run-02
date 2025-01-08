@@ -12,11 +12,15 @@
  * @param {number} size
  * @returns {any[][]}
  */
-
+let a = [1, 2, 3, 4, 5];
+let b = 2;
 // TODO: chunkArray 함수를 작성하세요.
 function chunkArray(arr, size) {
   // TODO
+  return arr.splice(0, size);
 }
+console.log(a.splice(2,));
+//console.log([chunkArray(a, b)]);
 
 // export를 수정하지 마세요.
 export { chunkArray };

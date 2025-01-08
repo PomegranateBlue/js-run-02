@@ -19,15 +19,17 @@
 const array = [1, 2, 3];
 
 // TODO: spread 연산자를 사용하여 array 배열을 복사하고 원하는 요소를 추가하세요.
-const newArray = [];
+const newArray = [...array, 4];
 
+console.log(newArray);
 const obj = {
   name: "철수",
   age: 25,
 };
 
 // TODO : spread 연산자를 사용하여 obj 객체를 복사하고 newObj 객체를 만들어 원하는 부분만 수정하세요.
-const newObj = {};
+const newObj = { ...obj, age: 26 };
 
+console.log(newObj);
 //export를 수정하지 마세요.
 export { obj, newObj, array, newArray };
